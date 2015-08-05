@@ -17,6 +17,7 @@ npm install testlinkapi
 
 Examples:
 
+```sh
 var TestLinkAPI = require('./testlinkapi.js');
 
 			var devKey="";
@@ -45,4 +46,4 @@ testlink.getTestCaseNames(testprojectid,testsuiteid,function(TestcaseNames){
 			console.log(testcasename);
 });	
 
-
+```
