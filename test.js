@@ -1,22 +1,3 @@
-# testlinkapi
-Version:0.0.2
-@Author:Leon
-
-'Test link api' is for node application with test management tool testlink.Most of XML-RPC call is implemented. 
-
-## Installation
-
-Node based environments 
-
-```sh
-npm install testlinkapi
-```
-## API documentation:
-
-* [testlinkapi doc](http://leonlipu.github.io/)
-
-Examples:
-
 var TestLinkAPI = require('./testlinkapi.js');
 
 			var devKey="";
@@ -39,10 +20,9 @@ var TestLinkAPI = require('./testlinkapi.js');
 
 var testlink=new TestLinkAPI(devKey,RPCUrl);	
 
-//Get all test case name
+//Get test case name
 testlink.getTestCaseNames(testprojectid,testsuiteid,function(TestcaseNames){
 	
 			console.log(testcasename);
-});	
-
+});		
 

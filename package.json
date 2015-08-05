@@ -1,0 +1,43 @@
+{
+  "name": "testlinkapi",
+  "version": "0.0.1",
+  "description": "TestLink XML-RPC API implented in node js",
+  "dependencies": {
+    "JSONPath": "*",
+    "http": "*",
+    "simpleconvert-xml": "*",
+    "xmldom": "*",
+    "xpath": "*"
+  },
+  "keywords": [
+    "testlink",
+    "test",
+    "testlink-api"
+  ],
+  "author": {
+    "name": "Leon"
+  },
+  "contributors": [
+    {
+      "name": "Leon",
+      "email": "lipusipupara@gmail.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Leon"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "Apache V2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "homepage": "",
+  "_id": "testlinkapi@0.0.1",
+  "_shasum": "e548cc7fa71cb03e56cf5d7c0189d404a0d957bd",
+  "_from": "testlinkapi@",
+  "_resolved": ""
+}
