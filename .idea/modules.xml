@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/PMXTestlinkapi/.idea/testlinkapi.iml" filepath="$USER_HOME$/PMXTestlinkapi/.idea/testlinkapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PMXTestlinkapi.iml" filepath="$PROJECT_DIR$/.idea/PMXTestlinkapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/testlinkapi.iml" filepath="$PROJECT_DIR$/.idea/testlinkapi.iml" />
     </modules>
   </component>
 </project>

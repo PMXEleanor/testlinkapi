@@ -1,43 +1,24 @@
 {
-  "name": "testlinkapi",
-  "version": "0.0.1",
+  "name": "pmxtestlinkpai",
+  "version": "1.0.0",
   "description": "TestLink XML-RPC API implented in node js",
-  "dependencies": {
-    "JSONPath": "*",
-    "http": "*",
-    "simpleconvert-xml": "*",
-    "xmldom": "*",
-    "xpath": "*"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PMXEleanor/testlinkapi.git"
   },
   "keywords": [
     "testlink",
-    "test",
-    "testlink-api"
+    "testlink",
+    "api"
   ],
-  "author": {
-    "name": "Leon"
+  "author": "Eleanor <eleanor.lusted@parentmail.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PMXEleanor/testlinkapi/issues"
   },
-  "contributors": [
-    {
-      "name": "Leon",
-      "email": "lipusipupara@gmail.com"
-    }
-  ],
-  "maintainers": [
-    {
-      "name": "Leon"
-    }
-  ],
-  "licenses": [
-    {
-      "type": "Apache V2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ],
-  "readmeFilename": "README.md",
-  "homepage": "",
-  "_id": "testlinkapi@0.0.1",
-  "_shasum": "e548cc7fa71cb03e56cf5d7c0189d404a0d957bd",
-  "_from": "testlinkapi@",
-  "_resolved": ""
+  "homepage": "https://github.com/PMXEleanor/testlinkapi"
 }
