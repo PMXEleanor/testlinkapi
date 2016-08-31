@@ -1,5 +1,5 @@
 {
-  "name": "pmxtestlinkpai",
+  "name": "pmxtestlinkapi",
   "version": "1.0.0",
   "description": "TestLink XML-RPC API implented in node js",
   "dependencies": {
