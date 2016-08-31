@@ -1,6 +1,6 @@
-# testlinkapi
-Version:0.0.2
-@Author:Leon
+# pmxtestlinkapi
+Version:1.0.0
+
 
 'Test link api' is for node application with test management tool testlink.Most of XML-RPC call is implemented. 
 
@@ -9,12 +9,9 @@ Version:0.0.2
 Node based environments 
 
 ```sh
-npm install testlinkapi
+npm install pmxtestlinkapi
 ```
 ## API documentation:
-
-* [testlinkapi doc](http://leonlipu.github.io/)
-
 Examples:
 
 ```sh

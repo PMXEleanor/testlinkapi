@@ -1,0 +1,100 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish', './' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose publish [ './' ]
+5 silly cache add args [ './', null ]
+6 verbose cache add spec ./
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: './',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: './',
+7 silly cache add   spec: '/Users/eleanorlusted/PMXTestlinkapi',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/eleanorlusted/.npm/pmxtestlinkpai/1.0.0/package.tgz not in flight; packing
+9 verbose tar pack [ '/Users/eleanorlusted/.npm/pmxtestlinkpai/1.0.0/package.tgz',
+9 verbose tar pack   '/Users/eleanorlusted/PMXTestlinkapi' ]
+10 verbose tarball /Users/eleanorlusted/.npm/pmxtestlinkpai/1.0.0/package.tgz
+11 verbose folder /Users/eleanorlusted/PMXTestlinkapi
+12 info prepublish pmxtestlinkpai@1.0.0
+13 verbose addLocalTarball adding from inside cache /Users/eleanorlusted/.npm/pmxtestlinkpai/1.0.0/package.tgz
+14 silly cache afterAdd pmxtestlinkpai@1.0.0
+15 verbose afterAdd /Users/eleanorlusted/.npm/pmxtestlinkpai/1.0.0/package/package.json not in flight; writing
+16 verbose afterAdd /Users/eleanorlusted/.npm/pmxtestlinkpai/1.0.0/package/package.json written
+17 silly publish { name: 'pmxtestlinkpai',
+17 silly publish   version: '1.0.0',
+17 silly publish   description: 'TestLink XML-RPC API implented in node js',
+17 silly publish   dependencies:
+17 silly publish    { JSONPath: '*',
+17 silly publish      http: '*',
+17 silly publish      'simpleconvert-xml': '*',
+17 silly publish      xmldom: '*',
+17 silly publish      xpath: '*' },
+17 silly publish   main: 'index.js',
+17 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'https://github.com/PMXEleanor/testlinkapi.git' },
+17 silly publish   keywords: [ 'testlink', 'testlink api' ],
+17 silly publish   author: { name: 'Eleanor', email: 'eleanor.lusted@parentmail.co.uk' },
+17 silly publish   license: 'ISC',
+17 silly publish   bugs: { url: 'https://github.com/PMXEleanor/testlinkapi/issues' },
+17 silly publish   homepage: 'https://github.com/PMXEleanor/testlinkapi',
+17 silly publish   readme: '# pmxtestlinkapi\r\nVersion:1.0.0\r\n\r\n\r\n\'Test link api\' is for node application with test management tool testlink.Most of XML-RPC call is implemented. \r\n\r\n## Installation\r\n\r\nNode based environments \r\n\r\n```sh\r\nnpm install pmxtestlinkapi\r\n```\r\n## API documentation:\r\nExamples:\r\n\r\n```sh\r\nvar TestLinkAPI = require(\'./testlinkapi.js\');\r\n\r\n\t\t\tvar devKey="";\r\n\t\t\tvar RPCUrl="http://localhost:8081/testlink/lib/api/xmlrpc/v1/xmlrpc.php";\r\n\t\t\tvar testprojectid=1;\r\n\t\t\tvar testsuiteid=5;\r\n\t\t\tvar testplanid=2;\r\n\t\t\tvar testPlanId=2;\r\n\t\t\tvar buildid=2;\r\n\t\t\tvar testprojectname="Project1";\r\n\t\t\tvar testplanname="Testplan1";\r\n\t\t\tvar testcaseexternalid="123-1";\r\n\t\t\tvar testcaseid=6;\r\n\t\t\tvar filedownloadpath="C:/xampp/htdocs/pratice/";\r\n\t\t\tvar custonfiledname="customfield1";\r\n\t\t\tvar custonfiledvalue="updated Value";\r\n\t\t\tvar summary="Summary";\r\n\r\n//Creating Object \r\n\r\nvar testlink=new TestLinkAPI(devKey,RPCUrl);\t\r\n\r\n//Get all test case name\r\ntestlink.getTestCaseNames(testprojectid,testsuiteid,function(TestcaseNames){\r\n\t\r\n\t\t\tconsole.log(testcasename);\r\n});\t\r\n\r\n```\r\n',
+17 silly publish   readmeFilename: 'README.md',
+17 silly publish   gitHead: '426532795656d18c32601ef46f3e6dfe0ebbc81c',
+17 silly publish   _id: 'pmxtestlinkpai@1.0.0',
+17 silly publish   _shasum: '4de8a0c7179d585d76c6d414cf86107ba3ab9d4d',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name pmxtestlinkpai
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/pmxtestlinkpai
+23 verbose publish registryBase https://registry.npmjs.org/
+24 silly publish uploading /Users/eleanorlusted/.npm/pmxtestlinkpai/1.0.0/package.tgz
+25 verbose request uri https://registry.npmjs.org/pmxtestlinkpai
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 7:59:01 AM
+28 verbose request using bearer token for auth
+29 verbose request id be122cf11ad5ed55
+30 http request PUT https://registry.npmjs.org/pmxtestlinkpai
+31 http 403 https://registry.npmjs.org/pmxtestlinkpai
+32 verbose headers { 'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=300',
+32 verbose headers   'content-length': '95',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Wed, 31 Aug 2016 06:59:05 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-lcy1120-LCY',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1472626741.797862,VS0,VE3622',
+32 verbose headers   vary: 'Accept-Encoding' }
+33 verbose request invalidating /Users/eleanorlusted/.npm/registry.npmjs.org/pmxtestlinkpai on PUT
+34 error publish Failed PUT 403
+35 verbose stack Error: "You cannot publish over the previously published version 1.0.0." : pmxtestlinkpai
+35 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+35 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+35 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+35 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+35 verbose stack     at emitTwo (events.js:87:13)
+35 verbose stack     at Request.emit (events.js:172:7)
+35 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+35 verbose stack     at emitOne (events.js:82:20)
+35 verbose stack     at Request.emit (events.js:169:7)
+35 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+36 verbose statusCode 403
+37 verbose pkgid pmxtestlinkpai
+38 verbose cwd /Users/eleanorlusted/PMXTestlinkapi
+39 error Darwin 15.6.0
+40 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "./"
+41 error node v4.3.1
+42 error npm  v2.14.12
+43 error code E403
+44 error "You cannot publish over the previously published version 1.0.0." : pmxtestlinkpai
+45 error If you need help, you may report this error at:
+45 error     <https://github.com/npm/npm/issues>
+46 verbose exit [ 1, true ]
